@@ -3,6 +3,7 @@
 __author__ = 'Manuel Velasco'
 
 import requests
+import turtle
 
 
 def astronaut_info():
@@ -29,7 +30,7 @@ def location_iss():
     return lat_long
 
 
-def tur():
+def turtle_world():
     a = location_iss()
 
 
@@ -37,7 +38,7 @@ def main():
 
     astronaut_info()
 
-    tur()
+    turtle_world()
 
 
 if __name__ == '__main__':
